@@ -1,5 +1,5 @@
 {% set name = "markdownlint-cli2" %}
-{% set version = "0.14.0" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/markdownlint-cli2/-/markdownlint-cli2-{{ version }}.tgz
-  sha256: 5eaf33fc6c6541032d5a6336d32929f54cde67e987cc4bef5e180ba61d935c4d
+  sha256: 162969e38018574754f29749fff5e5a7520865dee5f1405553d93fd3f899342c
 
 build:
   noarch: generic
